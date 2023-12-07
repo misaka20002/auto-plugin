@@ -1,4 +1,9 @@
-<img decoding="async" align=right src="resources/img/logo_auto.png" width="25%">
+## 写bug
+```
+git clone --depth=1 https://github.com/misaka20002/auto-plugin.git ./plugins/auto-plugin/
+```
+
+
 
 # 自动化插件Auto-plugin For Yunzai
 
