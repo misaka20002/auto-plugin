@@ -39,7 +39,7 @@ export class autoCommand extends plugin {
         return this.reply('未正确识别出cron表达式，请确认格式后再发送');
       } else {
         await this.setECronTask(command[1], String(cron[1]))
-        return this.reply(`已将指令【${command[1]}】加入任务列表。关闭您的云崽、计算机或服务器后调用将立刻失效，您也可以使用自动化插件的【任务表】功能管理定时任务。`);
+        return this.reply(`已将指令【${command[1]}】加入任务列表。关闭您的云崽、计算机或服务器后调用将立刻失效，您也可以使用自动化插件的【任务表】功能管理定时任务。`, false, { recallMsg: 10 });
       }
     }
 
