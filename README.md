@@ -41,12 +41,12 @@ Yunzai-Bot V3 的一个小型插件包，主要提供各式各样的定时任务
 使用github方式获取
 
 ```
-git clone --depth=1 https://github.com/Nwflower/auto-plugin.git ./plugins/auto-plugin/
+git clone --depth=1 https://github.com/misaka20002/auto-plugin.git ./plugins/auto-plugin/
 ```
 
 如果您所在的地区网络不是很好，建议使用gitee源
 ```
-git clone --depth=1 https://gitee.com/Nwflower/auto-plugin.git ./plugins/auto-plugin/
+git clone --depth=1 https://ghp.ci/https://github.com/misaka20002/auto-plugin.git ./plugins/auto-plugin/
 ```
 
 ### 功能列表及使用说明
